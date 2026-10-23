@@ -1,7 +1,16 @@
 # Bots have Infinite Charge: Updated
 
-Factorio 2.1 update of Bots have Infinite Charge. Original author: dominis. Removes construction and logistic robot battery.
+Construction and logistic robots work without stopping to recharge.
 
-Disable the original mod before enabling this fork. Entity, item, recipe and startup setting names are retained. Mod-private runtime state belongs to the old mod identity; per-player transient UI/distribution state is rebuilt.
+**Factorio 2.1 · Version 1.0.0**
 
-See [Factorio 2.1 changes and validation](FACTORIO-2.1.md) and [original credits and license](ATTRIBUTION.md).
+
+## Installation
+
+Disable BotInfCharge before enabling this fork. Restart Factorio after changing startup settings.
+
+[Mod Portal](https://mods.factorio.com/mod/bots-infinite-charge-updated) · [Downloads](https://github.com/FactorioMods/bots-infinite-charge-updated/releases) · [Tests and 2.1 changes](FACTORIO-2.1.md)
+
+## Credits
+
+Original mod by dominis. See [credits and license](ATTRIBUTION.md).

@@ -1,7 +1,17 @@
-# Factorio 2.1 update
+# Factorio 2.1 notes
 
-- Declare Factorio 2.1 compatibility.
+Tested with **Factorio 2.1.23**. Current fork version: **1.0.0**.
 
-Validated with Factorio 2.1.23 in an isolated full-mod environment: fresh map creation, copied-save upgrade and 1,800 simulation ticks. Combined feature checks covered production by all five advanced assembler tiers, science chest refill, nine loader variants, underground-belt build events and disabled robot charging. These checks do not establish full multiplayer or optional-overhaul compatibility.
+## Changes
 
-Additional checks passed: a migrated save reloaded for 1,800 ticks after removing the Black Market bridge; Even Distribution replaced real furnace fuel; Max Rate Calculator processed an assembler selection; Black Market constructed its main and item-selection windows. The furnace legacy option generated the converted smelting recipes with category lists. Interaction checks used temporary private test hooks, excluded from the distributed ZIPs.
+- Updated Factorio compatibility metadata to 2.1; robot behavior remains native.
+
+## Tests
+
+- Construction robots built a steel chest.
+- Logistic robots delivered 100 iron plates in each of two connected-client rounds.
+- Flying robots were sampled with zero stored energy; construction and delivered inventory survived reload.
+
+These tests cover the installed robot types, not every modded robot prototype.
+
+Tests used private copies of saves and local host/client sessions. Raw player data and test hooks are not shipped.
