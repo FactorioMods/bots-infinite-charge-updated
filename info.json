@@ -1,0 +1,13 @@
+{
+  "name": "bots-infinite-charge-updated",
+  "version": "1.0.0",
+  "title": "Bots have Infinite Charge: Updated",
+  "author": "dominis (original); johnmart19 / FactorioMods (2.1 fork)",
+  "homepage": "https://github.com/FactorioMods/bots-infinite-charge-updated",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.23",
+    "! BotInfCharge"
+  ],
+  "description": "Factorio 2.1 update of Bots have Infinite Charge. Original author: dominis. Removes construction and logistic robot battery."
+}
