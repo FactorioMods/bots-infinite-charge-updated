@@ -2,7 +2,7 @@
 
 Construction and logistic robots work without stopping to recharge.
 
-**Factorio 2.1 · Version 1.0.0**
+**Factorio 2.1 · Version 1.0.1**
 
 
 ## Installation
